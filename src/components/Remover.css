@@ -1,0 +1,74 @@
+.container {
+    background-color: rgba(255, 247, 247, 0.116);
+    backdrop-filter: blur(10px);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .remover_container {
+    margin: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .info_container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 1.5rem;
+    margin-top: 1.4rem;
+  }
+  
+  input {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+  
+  .btn_upload {
+    background-color: #27a5b0;
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+  
+  .btn_disabled {
+    background-color: rgb(128, 128, 128);
+    cursor: not-allowed;
+    padding: 0.5rem 1rem;
+  }
+  
+  .btn_download {
+    background-color: #00C853;
+    color: white;
+    margin-top: 0.2rem;
+    width: 100%;
+    padding: 0.5rem 1rem;
+  }
+  
+  .download_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .final_img_area {
+    background: transparent;
+    margin-top: 0.5rem;
+    max-height: 65vh;
+    border-radius: 7px;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .final_img {
+    max-width: 100%;
+    height: auto;
+  }
+  
